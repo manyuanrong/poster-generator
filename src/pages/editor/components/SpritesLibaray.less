@@ -1,0 +1,27 @@
+.libaray {
+  width: 200px;
+  height: 100%;
+  border-right: 1px solid #ddd;
+  background: #fff;
+  z-index: 90;
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px;
+      &:hover {
+        background: rgba(240, 240, 240, 0.5);
+      }
+      :global {
+        .anticon {
+          font-size: 20px;
+          margin-right: 10px;
+          color: #52acff;
+        }
+      }
+    }
+  }
+}

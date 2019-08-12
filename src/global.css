@@ -1,0 +1,17 @@
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+  outline: none;
+}
+
+input{
+  min-width: 0px;
+}
