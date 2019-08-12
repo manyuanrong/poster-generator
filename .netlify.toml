@@ -1,0 +1,15 @@
+[build]
+  base    = ""
+  command = "yarn build"
+  publish = "dist"
+
+# [[redirects]]
+#   from = "/api/*"
+#   to = "http://"
+#   status = 200
+#   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

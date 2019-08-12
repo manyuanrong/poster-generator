@@ -3,8 +3,6 @@ import { IConfig } from 'umi-types';
 // ref: https://umijs.org/config/
 const config: IConfig = {
   treeShaking: true,
-  publicPath: '/poster-generator/',
-  base: '/poster-generator/',
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     [
