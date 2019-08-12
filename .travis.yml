@@ -8,14 +8,5 @@ before_install:
   - yarn
 
 script:
-  - yarn build
-
-deploy:
-  provider: pages
-  local_dir: dist
-  target_branch: gh-pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  keep_history: false
-  on:
-    branch: master
+  - yarn lint:ts
+  - yarn test
