@@ -3,6 +3,7 @@ import { IConfig } from 'umi-types';
 // ref: https://umijs.org/config/
 const config: IConfig = {
   treeShaking: true,
+  publicPath: '/poster-generator/',
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     [
@@ -11,7 +12,7 @@ const config: IConfig = {
         antd: true,
         dva: false,
         dynamicImport: { webpackChunkName: true },
-        title: 'tt',
+        title: 'Poster Generator - Editor',
         dll: true,
         locale: {
           enable: true,
